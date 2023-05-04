@@ -1,0 +1,53 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.main-card-list {
+  display: grid;
+  gap: 16px;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-template-rows: auto;
+  width: 100%;
+  max-width: 934px;
+  padding: 16px;
+}
+
+.main-card {
+  display: flex;
+  flex-direction: column;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+  padding: 32px 48px;
+  text-align: center;
+  background-color: aliceblue;
+  color: mediumslateblue;
+  border: 1px solid mediumslateblue;
+  border-radius: 12px;
+
+  min-height: 160px;
+}
+
+.main-card-title {
+  font-weight: 500;
+  font-size: 18px;
+}
