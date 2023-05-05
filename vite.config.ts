@@ -3,6 +3,6 @@ import react from "@vitejs/plugin-react";
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  baseUrl: "/react-playground/",
+  base: "/react-playground/",
   plugins: [react()],
 });
