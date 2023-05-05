@@ -8,7 +8,10 @@ function App() {
       <ul className="main-card-list">
         {playgrounds.map((playground, i) => (
           <li key={i}>
-            <a href={`/playground/${i + 1}`} className="main-card">
+            <a
+              href={`/react-playground/playground/${i + 1}`}
+              className="main-card"
+            >
               <h2>{playground.title}</h2>
               <span className="main-card-title">{playground.description}</span>
             </a>
