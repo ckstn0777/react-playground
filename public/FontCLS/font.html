@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <style type="text/css">
+      @font-face {
+        font-family: "HomemadeApple";
+        font-style: normal;
+        font-weight: 400;
+        size-adjust: 68.5%;
+        ascent-override: 120.6633866%;
+        descent-override: 60%;
+        src: url("./font/HomemadeApple-Regular.ttf") format("truetype");
+      }
+
+      body {
+        font-family: "HomemadeApple", sans-serif;
+        font-size: 16px;
+      }
+
+      .layered {
+        display: grid;
+        grid-template: 1fr / 1fr;
+        place-items: start;
+      }
+      .layered > * {
+        grid-column: 1 / 1;
+        grid-row: 1 / 1;
+      }
+      .webfont,
+      .fallback {
+        font-size: 100px;
+      }
+      .webfont {
+        color: blue;
+        border: 1px solid blue;
+      }
+      .fallback {
+        border: 1px solid red;
+        color: red;
+      }
+    </style>
+
+    <title>Font CLS</title>
+  </head>
+  <body>
+    <h1>IMG LCP</h1>
+    <img src="./image/album.jpg" alt="" width="300" height="300" />
+
+    <div class="layered">
+      <div class="webfont" style="font-family: HomemadeApple">Lorum Ipsum</div>
+      <div class="fallback" style="font-family: sans-serif">Lorum Ipsum</div>
+    </div>
+  </body>
+</html>
