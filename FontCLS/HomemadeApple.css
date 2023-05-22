@@ -1,0 +1,11 @@
+@font-face {
+  font-family: "HomemadeApple";
+  font-style: normal;
+  font-weight: 400;
+  src: url("./font/HomemadeApple-Regular.ttf") format("truetype");
+}
+
+body {
+  font-family: "HomemadeApple", sans-serif;
+  font-size: 16px;
+}
