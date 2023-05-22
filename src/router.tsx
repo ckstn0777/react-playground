@@ -2,6 +2,7 @@ import App from "./App";
 import PlaygroundFive from "./pages/playground/five";
 import PlaygroundFour from "./pages/playground/four";
 import PlaygroundOne from "./pages/playground/one";
+import PlaygroundSix from "./pages/playground/six";
 import PlaygroundThree from "./pages/playground/three";
 import PlaygroundTwo from "./pages/playground/two";
 
@@ -29,5 +30,9 @@ export const routes = [
   {
     path: "/playground/5",
     element: <PlaygroundFive />,
+  },
+  {
+    path: "/playground/6",
+    element: <PlaygroundSix />,
   },
 ];

@@ -19,4 +19,8 @@ export const playgrounds = [
     title: "Race Condition",
     description: "경쟁상태를 useEffect cleanup으로 제어하기",
   },
+  {
+    title: "Race Condition#2",
+    description: "경쟁상태를 Suspense로 제어하기",
+  },
 ];
