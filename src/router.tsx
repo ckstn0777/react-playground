@@ -1,4 +1,5 @@
 import App from "./App";
+import PlaygroundFive from "./pages/playground/five";
 import PlaygroundFour from "./pages/playground/four";
 import PlaygroundOne from "./pages/playground/one";
 import PlaygroundThree from "./pages/playground/three";
@@ -24,5 +25,9 @@ export const routes = [
   {
     path: "/playground/4",
     element: <PlaygroundFour />,
+  },
+  {
+    path: "/playground/5",
+    element: <PlaygroundFive />,
   },
 ];

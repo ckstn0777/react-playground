@@ -15,4 +15,8 @@ export const playgrounds = [
     title: "useCallback",
     description: "간단한 예시로 useCallback 사용 실습",
   },
+  {
+    title: "Race Condition",
+    description: "경쟁상태를 useEffect cleanup으로 제어하기",
+  },
 ];
