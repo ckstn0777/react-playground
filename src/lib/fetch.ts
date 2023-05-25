@@ -30,7 +30,7 @@ export type Post = {
 };
 
 export async function fetchUser(userId: number, delay = 0) {
-  console.log("[fetch] fetchUser: ", userId, "...", delay);
+  //console.log("[fetch] fetchUser: ", userId, "...", delay);
 
   const response = await fetch(
     `https://jsonplaceholder.typicode.com/users/${userId}`
@@ -41,7 +41,7 @@ export async function fetchUser(userId: number, delay = 0) {
 }
 
 export async function fetchPost(postId: number, delay = 0) {
-  console.log("[fetch] fetchPost: ", postId, "...", delay);
+  //console.log("[fetch] fetchPost: ", postId, "...", delay);
 
   const response = await fetch(
     `https://jsonplaceholder.typicode.com/posts/${postId}`

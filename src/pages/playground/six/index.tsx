@@ -43,6 +43,7 @@ function UserComponent({ resource }: Props) {
 
 export default function PlaygroundSix() {
   const [resource, setResource] = useState(initialResource);
+  console.log("weojfiowejfojewf");
 
   return (
     <div>

@@ -23,4 +23,8 @@ export const playgrounds = [
     title: "Race Condition#2",
     description: "경쟁상태를 Suspense로 제어하기",
   },
+  {
+    title: "Context API",
+    description: "Context API Deep Dive",
+  },
 ];
